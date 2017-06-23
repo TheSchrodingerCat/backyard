@@ -16,12 +16,31 @@ body{
 	justify-content: space-between;
 }
 
+.blanco{
+	color: white;
+}
+
+.mi-margen{
+	margin: 2% 0;
+}
+
+.ancho{
+	width: 90%;
+}
+
 /*-------------------------- nav ------------------------------*/
+nav{
+	height: 7vh;
+}
 
 .second{
 	width: 25%;
 	padding: 0 5%;
 	display: flex;
+}
+
+.contenedor-nav{
+	padding: 1% 0;
 }
 
 .contenedor-nav .second ul{
@@ -37,12 +56,14 @@ li{
 a{
 	padding: 0 10%;
 	text-decoration: none;
+	color: black;
 }
 
 /*-------------------------- header ------------------------------*/
 [class*="header-"]{
 	width: 50%;
-	padding: 7% 0;
+	padding: 3% 0;
+	margin: 4% 0;
 }
 
 .header-left{
@@ -53,4 +74,19 @@ a{
 	padding-left: 5%;
 }
 
+input{
+	padding: 1.5%;
+}
 
+button{
+	padding: 3% 7%;
+}
+
+.ancho-btn{
+	width: 94%;
+}
+
+/*-------------------------- footer ------------------------------*/
+footer{
+	padding: 1% 0;
+}

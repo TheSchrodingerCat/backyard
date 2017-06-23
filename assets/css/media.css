@@ -1,0 +1,124 @@
+
+@media (min-width: 825px) and (max-width: 1400px){
+
+	body{
+		font-family: 'Bubbler One', sans-serif;
+	}
+	nav{
+		background: whitesmoke;;
+	}
+	.styles{
+		font-family: 'Fjalla One', sans-serif;
+	}
+	header{
+		background: rgb(180, 176, 176);
+	}
+	.header-right{
+		background: rgb(74, 70, 70);
+	}
+	button{
+		background: rgb(213, 80, 80);
+		color: white;
+	}
+}
+
+@media (min-width: 535px) and (max-width: 824px){
+
+	body{
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+	[class*="contenedor-"]{
+		width: 80%;
+		padding-left: 13%;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	nav{
+		background: white;
+		margin-top: 2%;
+	}
+	.styles{
+		font-family: 'Bowlby One', cursive;
+		color: rgb(91, 211, 165);
+	}
+	header{
+		background: whitesmoke;
+		margin: 0;
+	}
+	[class*="header-"]{
+		width: 70%;
+		padding: 10% 0;
+		margin: 4% 0;
+	}
+	.blanco.mi-margen{
+		color: rgb(49, 89, 73);
+	}
+	.contenedor-header{
+		display: block;
+		width: 100%;
+	}
+	.header-right{
+		background: rgb(74, 70, 70);
+		padding-left: 5%;
+	}
+	button{
+		background: rgb(91, 211, 165);
+		color: white;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+
+	body{
+		font-family: 'Handlee', cursive;
+		color: whitesmoke;
+	}
+	[class*="contenedor-"]{
+		width: 90%;
+		margin: 0 5%;
+		display: flex;
+		justify-content: space-between;
+	}
+	nav{
+		background: black;
+	}
+	.second{
+		width: 50%;
+		padding: 1.5% 0;
+		display: flex;
+		color: white;
+	}
+	a{
+		color: whitesmoke;
+	}
+	.styles{
+		font-family: 'Rock Salt', cursive;
+	}
+	header{
+		background: rgb(212, 205, 216);
+	}
+	[class*="header-"]{
+		width: 80%;
+		padding: 3% 0;
+		margin: 4% 0;
+	}
+		.contenedor-header{
+		display: block;
+		width: 100%;
+	}
+	.header-right{
+		background: rgb(119, 89, 112);
+		padding: 5%;
+	}
+	.blanco.mi-margen{
+		color: rgb(86, 82, 85);
+	}
+	button{
+		background: rgb(204, 79, 174);
+		color: white;
+	}
+	p{
+		color: black;
+	}
+}
