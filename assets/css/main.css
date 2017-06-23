@@ -9,13 +9,14 @@ body{
 	margin: 0;
 }
 
-/*-------------------------- nav ------------------------------*/
-.contenedor-nav{
+[class*="contenedor-"]{
 	width: 60%;
 	margin: 0 20%;
 	display: flex;
 	justify-content: space-between;
 }
+
+/*-------------------------- nav ------------------------------*/
 
 .second{
 	width: 25%;
@@ -23,7 +24,7 @@ body{
 	display: flex;
 }
 
-.contenedor .second ul{
+.contenedor-nav .second ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -37,3 +38,19 @@ a{
 	padding: 0 10%;
 	text-decoration: none;
 }
+
+/*-------------------------- header ------------------------------*/
+[class*="header-"]{
+	width: 50%;
+	padding: 7% 0;
+}
+
+.header-left{
+	padding-right: 5%;
+}
+
+.header-right{
+	padding-left: 5%;
+}
+
+
